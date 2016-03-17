@@ -1,0 +1,8 @@
+module final 
+{
+	interface Calc
+	{
+		long calculate (in string opcode, in long op1, in long op2);
+		long exit();
+	};
+};
